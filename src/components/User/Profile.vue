@@ -1,9 +1,8 @@
 <template>
     <div id="user-profile"> <!--Обязательный корневой элемент-->
         <h1>User profile</h1>
-        <p><strong>Name</strong>{{ user.name }}</p>
-        <p><strong>Surname</strong>{{ user.surname }}</p>
-
+        <p><strong>Name</strong> {{ user.name }}</p>
+        <p><strong>Surname</strong> {{ user.surname }}</p>
     </div>
 </template>
 
